@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 225, 127);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 620px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Carter One', cursive;
+    color: rgb(2, 166, 207);
+    
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+form input {
+    background-color: rgb(252, 91, 32);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 8px;
+    width: 36px;
+    color: #fff;
+    background-color: rgb(2, 166, 207);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: rgb(2, 128, 160);
+}
+
+table {
+    width: 100%;
+    margin-top: 24px;
+    text-align: center;
+    
+}
+
+table th, td {
+    border-bottom: 2px solid rgba(252, 91, 32, 0.63);
+    padding: 6px 0px;
+}
