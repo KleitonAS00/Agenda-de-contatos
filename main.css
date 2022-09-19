@@ -23,7 +23,6 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
     font-family: 'Carter One', cursive;
     color: rgb(2, 166, 207);
     
